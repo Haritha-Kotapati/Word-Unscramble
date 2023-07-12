@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .category-container {
+    margin-bottom: 20px;
+  }
+  
+  .category-container label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  #category-select {
+    padding: 5px;
+  }
+  
+  .word-container {
+    margin-bottom: 20px;
+  }
+  
+  .scrambled-word {
+    font-size: 24px;
+  }
+  
+  input[type="text"] {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .result-container {
+    margin-bottom: 20px;
+  }
+  
+  .timer-container {
+    font-weight: bold;
+  }
+  
